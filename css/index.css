@@ -141,7 +141,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -170,14 +170,47 @@ img {
 }
 .footer {
   width: 100%;
-  border-top: 2px dashed silver;
-  background: #FFEBCD;
+  border-top: 5px solid #141b27;
+  background: #1e283b;
 }
 .footer p {
   text-align: center;
-  color: #212529;
+  color: #748099;
   font-size: 1.6rem;
   padding: 20px;
+}
+body {
+  background-color: #181f2e;
+  margin: 0% auto;
+}
+body p {
+  color: #748099;
+}
+body h2 {
+  color: #ffffff;
+}
+.HeaderContainer {
+  display: flex;
+  background-color: #1e283b;
+  border: 5px solid #141b27;
+  margin: 0% 28%;
+}
+.HeaderText {
+  width: 60%;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+.HeaderNavigation {
+  width: 40%;
+  padding-top: 2%;
+}
+.NavLink {
+  font-size: 1.5em;
+  padding: 0% 5%;
+  text-decoration: none;
+  color: #748099;
+  border: 2px solid #141b27;
+  border-bottom-right-radius: 20px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -198,7 +231,7 @@ img {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px solid #141b27;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -214,12 +247,35 @@ img {
 }
 .home .content-destination img {
   border-radius: 10px;
+  border: 10px solid #141b27;
+  border-radius: 25px;
+}
+.home .btn {
+  border: 2px solid #141b27;
+  background-color: #181f2e;
+  color: #748099;
+  font-size: 25px;
+  text-align: center;
+  border-bottom-right-radius: 25px;
+  text-transform: uppercase;
+}
+.home .btn:hover {
+  border: 2px solid white;
+  background-color: #181f2e;
+  color: #748099;
+  font-size: 25px;
+  text-align: center;
+  border-bottom-right-radius: 25px;
+  text-transform: uppercase;
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px solid #141b27;
   display: flex;
   justify-content: space-between;
+}
+.home .content-pick h4 {
+  color: #FFFFFF;
 }
 .home .content-pick .destination {
   width: 30%;
