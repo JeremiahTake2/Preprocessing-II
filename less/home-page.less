@@ -40,6 +40,10 @@ body {
     border-bottom-right-radius: 20px;
   }
 
+  .HeaderIMG {
+    margin: 0% 28%;
+  }
+
 .home {
 
   .content-section {
@@ -124,14 +128,26 @@ body {
   }
 
   .Holder {
-    width: 80%;
-    background-color: #1e283b;
-    border: 5px solid @borderColor;
-    padding: 2% 5%;
+    .holder()
   }
+
+  .HeaderIMG{
+      background-color: #1e283b;
+      border: 5px solid @borderColor;
+      padding: 1% 1%;
+  }
+  
 
 // Mobile
 @media (max-width: 500px) {
+  .HeaderIMG{
+    width: 100%;
+    margin: 0% 0%;
+    background-color: #1e283b;
+    border: 5px solid @borderColor;
+    padding: 2% 0%;
+}
+
   .content-pick {
     width: 90%;
     margin: 0% 8%;
@@ -152,10 +168,7 @@ body {
   }
 
   .Holder {
-    width: 80%;
-    background-color: #1e283b;
-    border: 5px solid @borderColor;
-    padding: 2% 5%;
+    .holder()
   }
 
   .btn {
